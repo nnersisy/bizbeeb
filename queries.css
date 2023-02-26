@@ -1,0 +1,196 @@
+
+
+/* big tablets to 1023px */
+@media only screen and (max-width:1200px){
+   html,body,h1
+    {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+    header{
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    h1{
+        font-size: 250%;
+        margin-left: 200px;
+    }
+    .btn-1{
+        margin-left: 200px;
+    }
+    .btn-2{
+        margin-left: 150px;
+    }
+}
+
+/* small tablets to big tablets from 768 to 1023px */
+@media only screen and (max-width: 1023px){
+    
+    .main-nav{
+        font-size: 80%;
+    }
+    .main-nav{
+        margin-top: 20px;
+    }
+     header{
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .logo{
+        height: 90px;
+        width: auto;
+        float: left;
+        border-radius: 60px;
+        margin: 15px 15px 15px 15px;
+    }
+    h1{
+       font-size: 200%;
+       margin-left: 200px;
+    }
+    h2{
+        font-size: 300%;
+    }
+    h3{
+        font-size: 100%;
+    }
+    .btn{
+        padding: 5px 5px;
+        font-size: 90%;
+    }
+    .btn-1{
+        margin-left: 200px;
+    }
+    .btn-2{
+        margin-left: 20px;
+    }
+    .btn-f{
+        margin-left: 40%;
+        margin-right: auto;
+    }
+    .about-us p{
+        margin-top: 100px;
+    }
+}
+
+
+
+/* small phones to small tablets from 481 to 767px */
+@media only screen and (max-width: 767px){
+    html,body
+    {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+     header{
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .main-nav{
+        font-size: 70%;
+    }
+    .main-nav li{
+        display: inline-block;
+        margin: 0 20px 0 20px;
+    }
+    .logo{
+        height: 70px;
+        width: auto;
+        float: left;
+        border-radius: 60px;
+        margin: 15px 15px 15px 15px;
+    }
+    h1{
+       font-size: 150%;
+       margin-left: 370px;
+    }
+    .btn-1{
+        margin-left: 370px;
+        width: auto;
+        font-size: 80%;
+    }
+    .btn-2{
+        margin-left: 3px;
+        width: auto;
+        font-size: 80%;
+    }
+    h2{
+        font-size: 250%;
+    }
+    h4{
+        font-size: 140%;
+    }
+    .clothing img,
+    .accessories img{
+        width: 200px;
+    }
+    .btn-f{
+        font-size: auto;
+        font-size: 80%;
+        margin-left: 171px;
+        margin-bottom: 20px;
+    }
+    .about-us p{
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+
+}
+
+
+/* small phones from 0 to 480px */
+@media only screen and (max-width: 480px){
+    html,body
+    {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    } 
+     header{
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    h1{
+        margin-left: 400px;
+        font-size: 120%;
+    }
+    .main-nav li{
+        display: list-item;
+        margin: 30px 20px 10px 20px;
+    }
+    .logo{
+        height: 100px;
+    }
+    .btn-1{
+        margin-left: 400px;
+        width: auto;
+        font-size: 70%;
+    }
+    .btn-2{
+        margin-left: 10px;
+        width: auto;
+        font-size: 70%;
+    }
+    h2{
+        font-size: 200%;
+    }
+    .btn-f{
+        font-size: auto;
+        font-size: 80%;
+        margin-left: 117px;
+        margin-bottom: 20px;
+    }
+    .about-us p{
+        font-size: 80%;
+        margin-top: 170px;
+    }
+}
+

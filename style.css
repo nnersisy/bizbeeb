@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant', 'Arial', sans-serif;
+    color: #c0e1bd;
+}
+
+html{
+    background-color: #fff;
+    color: #c0e1bd;
+    font-family: 'Cormorant', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+/*------------------------------*/
+/*------------------------------*/
+/*-----------REUSABLE-----------*/
+/*------------------------------*/
+/*------------------------------*/
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)) ,url(resources/css/img/main-back-img.jpg);    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+
+.page-one-box
+{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 350%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 350%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+h3{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 120%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-size: 180%;
+    text-align: center;
+}
+
+/*------------------------------*/
+/*------------------------------*/
+/*------------BUTTONS-----------*/
+/*------------------------------*/
+/*------------------------------*/
+
+.btn-1:link,
+.btn-1:visited,
+.btn-2:link,
+.btn-2:visited,
+.btn-su:link,
+.btn-su:visited,
+.btn-f:link,
+.btn-f:visited{
+    color: #f7f1f8;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: #9bb7d4;
+    border-radius: 800px;
+    border: 1px solid #f7f1f8;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    margin-right: 15px;
+    
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.btn-1:hover,
+.btn-1:active,
+.btn-2:hover,
+.btn-2:active,
+.btn-su:hover,
+.btn-su:active,
+.btn-f:hover,
+.btn-f:active{
+    background-color: #c0e1bd;
+    border: 1px solid #9bb7d4;
+    
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.btn-f{
+    margin-left: 43%;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+/*------------------------------*/
+/*------------------------------*/
+/*------------Main Nav-----------*/
+/*------------------------------*/
+/*------------------------------*/
+
+.row{
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    border-radius: 60px;
+    margin: 15px 15px 15px 15px;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin: 50px 20px 0 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited
+{
+    padding: 8px 0;
+    color: #c0e1bd;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 105%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active
+{
+    border-bottom: 2px solid #9bb7d4;
+}
+
+/*------------------------------*/
+/*------------------------------*/
+/*------------CLOTHING----------*/
+/*------------------------------*/
+/*------------------------------*/
+
+.clothing h2{
+    color: #9BB7D4;
+}
+
+.clothing{
+    background-color: #F7F1F8;
+    border-bottom: #c0e1bd solid 2px;
+
+}
+
+.clothing img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*------------------------------*/
+/*------------------------------*/
+/*---------ACCESSORIES----------*/
+/*------------------------------*/
+/*------------------------------*/
+
+.accessories h2{
+    color: #9BB7D4;
+}
+
+.accessories{
+    background-color: #F7F1F8;
+
+}
+
+.accessories img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*------------------------------*/
+/*------------------------------*/
+/*---------ABOUT US-------------*/
+/*------------------------------*/
+/*------------------------------*/
+
+.about-us p{
+    color: #f7f1f8;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 115%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.about-us{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)),url(resources/css/img/back-img-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+/*------------------------------*/
+/*------------------------------*/
+/*---------SIGN-UP--------------*/
+/*------------------------------*/
+/*------------------------------*/
+.sign-up{
+    background-color: #f7f1f8;
+}
+
+.btn-su{
+    margin-bottom: 70px;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+/*------------------------------*/
+/*------------------------------*/
+/*---------PIC ZOOM-------------*/
+/*------------------------------*/
+/*------------------------------*/
+
+img{
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    
+}
+
+
+
+
